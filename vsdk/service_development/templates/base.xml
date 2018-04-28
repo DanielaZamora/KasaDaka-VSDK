@@ -8,7 +8,7 @@
   http://www.w3.org/TR/2007/REC-voicexml21-20070619/vxml.xsd">
 <property name="inputmodes" value="dtmf" /> 
 
-<!-- Kasadaka VoiceXML File -->
+<!-- iVet Animal Health -->
 
 {#This is the basic VoiceXML layout#}
 
