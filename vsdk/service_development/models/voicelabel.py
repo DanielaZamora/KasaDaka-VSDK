@@ -213,6 +213,7 @@ class VoiceFragment(models.Model):
 
     def validator(self):
         errors = []
+        return errors
         try:
             accessible = self.audio.storage.exists(self.audio.name)
         except NotImplementedError:
