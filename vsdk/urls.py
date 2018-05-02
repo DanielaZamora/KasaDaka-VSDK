@@ -19,7 +19,7 @@ from django.conf.urls.static import static
 from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 
-admin.site.site_header = _("KasaDaka Voice Services")
+admin.site.site_header = _("iVet Animal Health")
 
 urlpatterns = [
     url(r'^', admin.site.urls),
