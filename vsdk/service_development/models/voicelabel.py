@@ -213,6 +213,10 @@ class VoiceFragment(models.Model):
 
     def validator(self):
         errors = []
+<<<<<<< HEAD
+=======
+        #Temporary for ICT4D 2018, Heroku performance optimalization
+>>>>>>> upstream/master
         return errors
         try:
             accessible = self.audio.storage.exists(self.audio.name)
